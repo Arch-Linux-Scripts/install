@@ -37,5 +37,5 @@ This directory includes the clean .sh installation files without modifications. 
 ### c-install.sh
 This file is a combination of all .sh files in bare.sh
 
-This file is created by replacing every "$" with rm-ts except for the variables (passed from the initial script) at the top of chroot-install.sh.
-Every " in the file is also replaced with \" so that it can be stored in the c-install.sh (c stands for complete) as a single variable.
+This file is created by replacing every '$' with 'rm-ts' except for the variables (passed from the initial script) at the top of chroot-install.sh.
+Every '"' in the file is also replaced with \" so that it can be stored in the c-install.sh (the c stands for complete) as a unified file.
